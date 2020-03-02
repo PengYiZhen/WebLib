@@ -19,14 +19,14 @@ loader.loader();
 // Requset From Server User
 loader.OK();
 ```
-Property:
+Property
 ---------
 ```javascript
 Color color
 int speed
 String loaderStyle
 ```
-Method:
+Method
 -------
 ```javascript
 void loader()
@@ -53,7 +53,8 @@ loader.onLoaded = function(){
 }
 ```
 
-
+Release 1.0.0
+-------------
 
 
 
