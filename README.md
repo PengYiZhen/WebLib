@@ -55,9 +55,9 @@ loader.onLoaded = function(){
 DownLoad or CDN
 --------
       git https://github.com/PengYiZhen/WebLib/blob/master/Loader.js     
-URL https://github.com/PengYiZhen/WebLib/blob/master/Loader.js
+CDN https://cdn.jsdelivr.net/gh/PengYiZhen/WebLib@1.0.0/Loader.js
 ```html
-<script src="https://github.com/PengYiZhen/WebLib/blob/master/Loader.js" preload></script>
+<script src="https://cdn.jsdelivr.net/gh/PengYiZhen/WebLib@1.0.0/Loader.js" preload></script>
 ```      
 Release 1.0.0
 -------------
