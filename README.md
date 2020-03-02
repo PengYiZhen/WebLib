@@ -52,7 +52,10 @@ loader.onLoaded = function(){
     // add some code for Loader.OK() animation end
 }
 ```
-
+DownLoad or CDN
+--------
+      git https://github.com/PengYiZhen/WebLib/blob/master/Loader.js
+      URL https://github.com/PengYiZhen/WebLib/blob/master/Loader.js
 Release 1.0.0
 -------------
 
