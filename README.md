@@ -1,7 +1,7 @@
 # WebLib
 
 
-Loader Class \<br>  
+##Loader Class \  
 Loader用法: 
 example:
 var loader = new 	Loader({
