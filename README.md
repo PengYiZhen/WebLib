@@ -1,10 +1,8 @@
 # WebLib
 
 
-
-
-Loader Class \n
-Loader用法: \n
+#Loader Class 
+Loader用法: 
 example:
 var loader = new 	Loader({
 	   canvas: canvas,
