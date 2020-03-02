@@ -3,8 +3,8 @@
 
 
 
-Loader Class 
-Loader用法:
+Loader Class \n
+Loader用法: \n
 example:
 var loader = new 	Loader({
 	   canvas: canvas,
