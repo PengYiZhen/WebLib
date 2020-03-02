@@ -1,4 +1,5 @@
-/* 用法须知 */
+
+		/* 用法须知 */
 		/* @@@
 		@@@@@   加载用Loader.loader();
 		@@@@@   Response后 用 Loader.OK()  ++++@@@@ Mothed: onloaded = function(){}  loaded(function(){})
@@ -16,7 +17,8 @@
 							 props.ARC.x!=undefined?this.x=props.ARC.x:this.x=this.canvas.width/2;
 							 props.ARC.y!=undefined?this.y=props.ARC.y:this.y=this.canvas.height/2;
 							 props.ARC.color!=undefined?this.color=props.ARC.color:this.color='#84f';
-						
+						     this.firstColor = this.color;
+						   
 			                 this.beginArc = 0; 
 							 this.endArc = 180;
 							 this.roundArc = 1;
@@ -25,7 +27,6 @@
 							 this.TIMERID = 0;
 							 props.speed!=undefined?this.speed=props.speed:this.speed=1;
 							 props.loaderStyle!=undefined?this.loaderStyle=props.loaderStyle:this.loaderStyle='round';
-							 // is Event onLoaded is Response Http 
 							 this.onloaded;
 							 this.callback;
 							
@@ -117,6 +118,7 @@
 							      this.OKx = this.move_start.x;
 								  this.OKy = this.move_start.y;
 								  this.pause();
+								  this.changeColor(this.firstColor);
 								  if(typeof this.onloaded==='function'){ this.onloaded(); } // 事件
 								  if(typeof this.callback==='function'){ this.callback(); } // 事件回调
 							}
@@ -137,6 +139,10 @@
 					  loader() {
 					      this.play();
 						  this.updata();
+					  }
+					  
+					  changeColor (color){
+						  this.color = color;
 					  }
 					  
 					  OK(){
