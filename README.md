@@ -21,6 +21,40 @@ loader.OK();
 ```
 Property:
 ---------
+```javascript
+Color color
+int speed
+String loaderStyle
+```
+Method:
+-------
+```javascript
+void loader()
+// loader obj start
+void OK()
+// response http use it, on loader() is pause loader()
+void changeColor(Color color)
+// changeColor
+void pause()
+// pause draw, timer is online
+void play()
+// start draw, timer is online
+void stop()
+// clear timer || cancelAnimationFrame
+void loaded(func_callback)
+// is Loader.OK() is end animation to callback
+```
+Event
+-----
+```javascript
+LoaderEvent onLoaded
+loader.onLoaded = function(){
+    // add some code for Loader.OK() animation end
+}
+```
+
+
+
 
 
 
