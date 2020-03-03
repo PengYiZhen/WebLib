@@ -35,7 +35,7 @@ constructor(Object object)
 参数  | 类型  | 描述 | 必须
 ---- | ----- | ------ | -------  
 canvas  | Canvas | Canvas对象 | 是 
-color  | ARC | ARC对象 | 不
+ARC  | ARC | ARC对象 | 不
 speed | Float | 表示运动速度 | 不
 loadStyle | String | 采用哪种动画"round\|other" | 不
 ```javascript
