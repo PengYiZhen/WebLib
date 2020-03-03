@@ -2,6 +2,7 @@
 
 Loader Class 
 ------------
+      ___extends___ ___pyz.UI___ 
 
 Loader用法:
 -----------
@@ -47,8 +48,8 @@ void loaded(func_callback)
 Event
 -----
 ```javascript
-LoaderEvent onLoaded
-loader.onLoaded = function(){
+LoaderEvent onloaded
+loader.onloaded = function(){
     // add some code for Loader.OK() animation end
 }
 ```
