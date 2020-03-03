@@ -37,7 +37,7 @@ constructor(Object object)
 canvas  | Canvas | Canvas对象 | 是 
 color  | ARC | ARC对象 | 不
 speed | Float | 表示运动速度 | 不
-loadStyle | String | 采用哪种动画"round|other" | 不
+loadStyle | String | 采用哪种动画"round\|other" | 不
 ```javascript
 Object ARC 
 ```
